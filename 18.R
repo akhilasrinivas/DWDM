@@ -1,0 +1,6 @@
+print(getwd())
+setwd( "C:/Users/HP/OneDrive/Documents" )
+data <- fread("water.csv")
+data <- read.csv("water.csv")
+print(data)
+head(data)

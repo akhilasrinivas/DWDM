@@ -1,0 +1,6 @@
+print(getwd())
+setwd( "C:/Users/HP/OneDrive/Documents" )
+data <- fread("diabetes.csv")
+data <- read.csv("diabetes.csv")
+print(data)
+head(data)
